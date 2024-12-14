@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#color-preview {
+  margin-top: 16px;
+  padding: 16px;
+  border: solid 1px #ddd;
+  border-radius: 4px;
+  display: inline-block;
+}

@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+  padding: 100px 0;
+}
+.clock {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}

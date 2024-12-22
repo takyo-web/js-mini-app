@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  margin: 72px 32px;
+  background-image: url(background-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 25% 100%;
+  text-align: center;
+}
+
+h1 {
+  margin: 32px 0;
+  font-family: "Stalemate", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 128px;
+  line-height: 108px;
+  color: #fff;
+  -webkit-text-stroke: 1px #FFF;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+#countdown {
+  padding-bottom: 24px;
+  font-family: "Zen Maru Gothic", serif;
+  font-size: 32px;
+  color: #333;
+  font-weight: bold;
+  line-height: 64px;
+}
+
+.countdown-number {
+  min-width: 64px;
+  font-size: 64px;
+  color: #333;
+  display: inline-block;
+}

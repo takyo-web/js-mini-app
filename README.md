@@ -20,6 +20,37 @@ https://github.com/user-attachments/assets/3f391bb3-d739-4746-aab6-a3a770dcdcd7
 ## /fortune-telling
 https://github.com/user-attachments/assets/57b8415b-1780-4074-98fd-11df1cc66e5c
 
+## /kuromoji-character-count
+① Node.jsとnpmをインストールし、
+以下コマンドでインストールが成功したかを確認する
+
+  node -v
+  npm -v
+
+② 以下コマンドで新規プロジェクトを作成する
+
+  mkdir kuromoji-project
+  cd kuromoji-project
+  npm init -y
+
+③ kuromoji.jsをnpmでインストールする
+
+  npm install kuromoji
+
+④ 分かち書きの実装（index.js参照）
+
+⑤ 以下コマンドで分かち書きが成功しているか確認する
+
+  node index.js
+
+⑥ ブラウザでNode.jsを使えるように、browserifyをインストールする
+
+  npm install --save-dev browserify
+
+⑥ フロント用の各種ファイルを作成する
+
+https://github.com/user-attachments/assets/13b67069-003f-4fd2-a969-84de68e9b442
+
 ## /pull-down
 https://github.com/user-attachments/assets/516699dc-2c50-418b-a329-3f199398331f
 

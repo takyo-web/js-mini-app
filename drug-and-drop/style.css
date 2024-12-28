@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#drag-items {
+    display: flex;
+    gap: 10px;
+}
+
+#drop-area {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    border: 2px dashed gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#drop-area p {
+    display: block;
+}
+
+#drop-area.dragover {
+    border-color: green;
+    background-color: #f0fff0;
+}

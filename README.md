@@ -1,5 +1,10 @@
 サンプルイメージ
 
+## /drug-and-drop
+ファイルをドラッグアンドドロップするとファイル名とサイズが表示されます
+
+https://github.com/user-attachments/assets/3f391bb3-d739-4746-aab6-a3a770dcdcd7
+
 ## /fortune-telling
 https://github.com/user-attachments/assets/57b8415b-1780-4074-98fd-11df1cc66e5c
 

@@ -24,13 +24,13 @@ https://github.com/user-attachments/assets/57b8415b-1780-4074-98fd-11df1cc66e5c
 ① Node.jsとnpmをインストールし、
 以下コマンドでインストールが成功したかを確認する
 
-  node -v
+  node -v<br>
   npm -v
 
 ② 以下コマンドで新規プロジェクトを作成する
 
-  mkdir kuromoji-project
-  cd kuromoji-project
+  mkdir kuromoji-project<br>
+  cd kuromoji-project<br>
   npm init -y
 
 ③ kuromoji.jsをnpmでインストールする

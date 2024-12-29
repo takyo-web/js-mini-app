@@ -21,33 +21,8 @@ https://github.com/user-attachments/assets/3f391bb3-d739-4746-aab6-a3a770dcdcd7
 https://github.com/user-attachments/assets/57b8415b-1780-4074-98fd-11df1cc66e5c
 
 ## /kuromoji-character-count
-① Node.jsとnpmをインストールし、
-以下コマンドでインストールが成功したかを確認する
-
-  node -v<br>
-  npm -v
-
-② 以下コマンドで新規プロジェクトを作成する
-
-  mkdir kuromoji-project<br>
-  cd kuromoji-project<br>
-  npm init -y
-
-③ kuromoji.jsをnpmでインストールする
-
-  npm install kuromoji
-
-④ 分かち書きの実装（index.js参照）
-
-⑤ 以下コマンドで分かち書きが成功しているか確認する
-
-  node index.js
-
-⑥ ブラウザでNode.jsを使えるように、browserifyをインストールする
-
-  npm install --save-dev browserify
-
-⑥ フロント用の各種ファイルを作成する
+作成方法詳細はこちら：
+https://github.com/takyo-web/js-mini-app/wiki/kuromoji.js%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9F%E5%8D%98%E8%AA%9E%E6%95%B0%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9
 
 https://github.com/user-attachments/assets/13b67069-003f-4fd2-a969-84de68e9b442
 

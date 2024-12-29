@@ -34,4 +34,5 @@ https://github.com/user-attachments/assets/5c9375cd-5611-4c1f-8291-d73c2c269ea2
 
 ## /weather
 https://openweathermap.org/ でAPIキーを取得し連携します
+
 https://github.com/user-attachments/assets/883970f9-b748-4b10-b3e6-a8a9836ee227

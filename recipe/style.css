@@ -1,0 +1,57 @@
+body {
+  background-color: #dfdad3;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: #333;
+}
+a {
+  color: #8f5533;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group input, .form-group button {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 4px;
+}
+
+.form-group input {
+    border: solid 1px #8f5533;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+.form-group input:focus {
+    border-color: #e1b738;
+    box-shadow: 0 0 5px rgba(255, 225, 0, 0.5);
+}
+
+.form-group button {
+  background-color: #e1b738;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.form-group button:hover {
+  opacity: .5;
+  transition: .5s;
+}
+.recipe {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 10px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.recipe img {
+  max-width: 100%;
+}

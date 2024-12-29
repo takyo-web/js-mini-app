@@ -1,6 +1,6 @@
 document.getElementById('getWeatherBtn').addEventListener('click', async () => {
     const city = document.getElementById('cityInput').value;
-    const apiKey = '69b9e58251b00c3cfe4f8918369ca044'; // ここにあなたのAPIキーを入力してください
+    const apiKey = ''; // ここにAPIキーを入力してください
     const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
 

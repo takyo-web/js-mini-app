@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>カウントダウンタイマー</h1>
+  <div class="form-group">
+    制限時間を入力：
+    <input type="number" id="minutesInput" placeholder="分" min="0">
+    <label for="minutesInput">分</label>
+    <input type="number" id="secondsInput" placeholder="秒" min="0" max="59">
+    <label for="secondsInput">秒</label>
+  </div>
+  <div class="form-group">
+    <button id="startBtn">スタート</button>
+    <button id="pauseBtn">一時停止</button>
+    <button id="resetBtn">リセット</button>
+  </div>
+  <div id="timer">00:00</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
